@@ -1,0 +1,20 @@
+{
+  "name": "design-tokens-repo",
+  "version": "1.0.0",
+  "description": "SVG icon workflow prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svgEdit": "svgo -f packages/common/src/assets/dsIcons -o design-tokens-repo/output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npr/design-tokens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npr/design-tokens/issues"
+  },
+  "homepage": "https://github.com/npr/design-tokens#readme"
+}
