@@ -29,7 +29,7 @@ The icons should now be on a staging branch under the design-tokens/packages/com
 A pull request is created automatically. In the MVP, the SVGO and AWS steps are not relevant, and icons can be simply merged with the main branch and pulled locally to be used in Xcode. 
 
 ## The optional SVGO step
-An [SVGO](https://github.com/svg/svgo) script should be used to simplify the SVG code and shrink the size of the icons.
+An [SVGO](https://github.com/svg/svgo) script should be used to simplify the SVG code and shrink the size of the icons.\n
 NOTE: This step does **not** help with adapting icons for Xcode / SFSymbols (more on that below). 
 NOTE 2: The step is currently optional because it does not make any significant difference for the AV Controls icons, since the code for them is already very simple (SVGO doesn’t shrink them by more than 1%). SVGO, however, can help with more complex icons NPR uses. 
 
