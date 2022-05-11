@@ -1,6 +1,8 @@
 {
   "colors": {
-    "red": "#ff002d",
-    "purple": "#7f00ff"
+    "dark-red": "#e82100",
+    "pink": "#f68f8c",
+    "white": "#ffffff",
+    "orange": "#f2674e"
   }
 }
