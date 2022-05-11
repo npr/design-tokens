@@ -10,11 +10,18 @@
   module.exports = {
     plugins: [
       // enable a built-in plugin by name
-      'prefixIds',
       'cleanupAttrs',
+      'mergeStyles',
       'removeDoctype',
-      'minifyStyles',
-      'removeTitle'
+      'removeComments',
+      'removeMetadata',
+      'removeTitle',
+      'removeDesc',
+      'removeEmptyContainers',
+      'convertColors',
+      'reusePaths',
+      'removeAttrs',
+      'removeDimensions' // might mess up sizing! but also shrinks SVGs most significantly
     ],
   };
 

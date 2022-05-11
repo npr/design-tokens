@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "svgEdit": "svgo -f packages/common/src/assets/dsIcons -o design-tokens-repo/output"
+    "svgEdit": "svgo -f packages/common/src/assets/dsIcons -o output"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "keywords": [
     "design",
     "tokens"
-  ]
+  ],
+  "dependencies": {
+    "svgo": "^2.8.0"
+  }
 }
