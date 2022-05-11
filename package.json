@@ -1,5 +1,5 @@
 {
-  "name": "design-tokens-repo",
+  "name": "@npr/npr-design-tokens",
   "version": "1.0.0",
   "description": "SVG icon workflow prototype",
   "main": "index.js",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/npr/design-tokens/issues"
   },
-  "homepage": "https://github.com/npr/design-tokens#readme"
+  "homepage": "https://github.com/npr/design-tokens#readme",
+  "keywords": [
+    "design",
+    "tokens"
+  ]
 }
